@@ -1,4 +1,7 @@
- export default function Footer() {
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+
+
+export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -17,19 +20,17 @@
 
         {/* Social Links */}
         <div className="flex gap-6">
-          <a href="#" className="hover:text-blue-500 transition-colors text-xl" title="GitHub">
-            <span className="sr-only">GitHub</span>
-            {/* You can use icons here later */}
-            <i className="fab fa-github">GH</i> 
-          </a>
-          <a href="#" className="hover:text-blue-500 transition-colors text-xl" title="LinkedIn">
-            <span className="sr-only">LinkedIn</span>
-            <i>LI</i>
-          </a>
-          <a href="#" className="hover:text-blue-500 transition-colors text-xl" title="Twitter/X">
-            <span className="sr-only">Twitter</span>
-            <i>TW</i>
-          </a>
+         <a href="https://github.com/ABDOUL-MOUHSIN-CHOUAIB-CHERIF/" target="_blank" rel="noreferrer">
+        <FaGithub />
+      </a>
+
+      <a href="https://www.linkedin.com/in/abdoul-mouhsin/" target="_blank" rel="noreferrer">
+        <FaLinkedin />
+      </a>
+
+      <a href="https://wa.me/237690480803?text=Hello%2C%20I%27m%20interested%20in%20your%20services" target="_blank" rel="noreferrer">
+        <FaWhatsapp />
+      </a>
         </div>
 
         {/* Copyright */}

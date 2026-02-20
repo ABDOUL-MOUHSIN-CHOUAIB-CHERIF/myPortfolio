@@ -1,6 +1,7 @@
 import act from "../assets/images/Capture3.PNG"
 import acdc from "../assets/images/Acdc.png"
 import event from "../assets/images/Event-MS.png"
+import pic from "../assets/images/project2.png"
 
 export default function Project() {
   const projectData = [
@@ -8,19 +9,25 @@ export default function Project() {
       title: "Clinic Management System",
       image: act, // <--- Link the specific image here
       tech: ["Java 97%", "CSS 3%"],
-      links: { github: "#", live: "#" }
+      links: { github: "https://github.com/ABDOUL-MOUHSIN-CHOUAIB-CHERIF/ACT-Digittal-Health", live: "#" }
     },
     {
       title: "CGA ACDC Website",
       image: acdc, // <--- Link the specific image here
       tech: ["HTML 60%", "CSS 35%", "FormSpree 5%"],
-      links: { github: "#", live: "#" }
+      links: { github: "https://github.com/PrimeSpecies/acdc-project", live: "#" }
     },
     {
       title: "Event Management System",
       image: event, // <--- Link the specific image here
       tech: ["TypeScript 50%", "HTML 30%", "CSS 20%"],
-      links: { github: "#", live: "#" }
+      links: { github: "https://github.com/ABDOUL-MOUHSIN-CHOUAIB-CHERIF/TYpescript-Project", live: "#" }
+    },
+     {
+      title: "Client Porfolio",
+      image: pic, // <--- Link the specific image here
+      tech: ["React 60%", "Tailwindcss 35%", "EmailJS 5%"],
+      links: { github: "https://github.com/ABDOUL-MOUHSIN-CHOUAIB-CHERIF/ClientPortfolio", live: "https://fatima-njindou.vercel.app/" }
     }
   ];
 
@@ -64,7 +71,7 @@ export default function Project() {
                   <a href={proj.links.github} className="text-sm font-bold text-slate-700 dark:text-slate-300 hover:text-blue-600 transition-colors">
                     GitHub →
                   </a>
-                  <a href={proj.links.live} className="text-sm font-bold text-blue-600 hover:underline">
+                  <a href={proj.links.live} target="blank" className="text-sm font-bold text-blue-600 hover:underline">
                     Live Demo
                   </a>
                 </div>

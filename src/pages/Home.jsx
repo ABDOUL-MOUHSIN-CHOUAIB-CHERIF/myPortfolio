@@ -28,12 +28,15 @@ export default function Home() {
           
           {/* Action Buttons */}
           <div className="mt-10 flex flex-wrap gap-4 justify-center md:justify-start">
-            <button className="px-8 py-3 bg-blue-600 text-blue font-medium rounded-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/25">
+            <a href="#project" className="px-8 py-3 bg-blue-300 text-white font-medium rounded-lg hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/25">
               View Projects
-            </button>
-            <button className="px-8 py-3 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-medium rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
+            </a>
+            <a
+            href="/ABDOUL MOUHSIN.pdf" 
+            download  
+            className="px-8 py-3 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-medium rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
               Download CV
-            </button>
+            </a>
           </div>
         </div>
 
