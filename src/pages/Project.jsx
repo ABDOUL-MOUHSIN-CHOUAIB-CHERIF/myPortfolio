@@ -1,10 +1,10 @@
 import act from "../assets/images/Capture3.PNG"
 import acdc from "../assets/images/Acdc.png"
-import event from "../assets/images/Event-MS.png"
+import event from "../assets/images/temp.png"
 import pic from "../assets/images/project2.png"
 
 export default function Project() {
-  const projectData = [
+  const projectData = [  
     {
       title: "Clinic Management System",
       image: act, // <--- Link the specific image here
