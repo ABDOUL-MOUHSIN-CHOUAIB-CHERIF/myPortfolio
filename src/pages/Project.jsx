@@ -48,6 +48,7 @@ export default function Project() {
                   src={proj.image} // <--- Changed from 'act' to 'proj.image'
                   alt={proj.title} 
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" 
+                  loading="lazy"
                 />
               </div>
 

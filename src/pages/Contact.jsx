@@ -9,14 +9,14 @@ export default function Contact() {
 
     // Replace these strings with your actual IDs from EmailJS Dashboard
     emailjs.sendForm(
-      'Service_9874', 
+      'service_9874', 
       'template_pbtcwo6', 
       form.current, 
       'QvrxejAOXePIftTtZ'
     )
     .then((result) => {
         console.log(result.text);
-        alert("Message sent successfully! 🚀");
+        alert(" ✅Message sent successfully! ");
         form.current.reset(); // Clears the form after success
     }, (error) => {
         console.log(error.text);

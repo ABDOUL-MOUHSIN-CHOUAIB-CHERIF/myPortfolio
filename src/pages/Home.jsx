@@ -50,6 +50,7 @@ export default function Home() {
               src={picture} 
               alt="Abdoul Mouhsin" 
               className="relative w-64 h-64 md:w-80 md:h-80 mt-5 rounded-2xl object-cover shadow-2xl border-4 border-white dark:border-slate-800 transition-transform duration-500 hover:rotate-2 hover:scale-105" 
+              loading="lazy"
             />
           </div>
         </div>

@@ -14,6 +14,7 @@ export default function Navbar() {
             src={picture} 
             alt="logo" 
             className="h-10 w-10 rounded-full object-cover ring-2 ring-blue-500 transition-transform group-hover:scale-110" 
+            loading="lazy"
           />
           <h1 className="text-sm md:text-xl font-bold tracking-tight text-slate-900 dark:text-white">
             Dev <span className="text-blue-600">Warrior</span>
