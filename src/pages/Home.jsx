@@ -22,7 +22,7 @@ export default function Home() {
             Hi, It's <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">ABDOUL MOUHSIN</span>
           </h1>
           <p className="mt-6 text-lg text-slate-600 dark:text-slate-400 max-w-lg leading-relaxed">
-            I am a <span className="font-semibold text-slate-800 dark:text-slate-200">MERN Stack Developer</span> and a <span className="font-semibold text-slate-800 dark:text-slate-200">Java enthusiast.</span> 
+            I am a <span className="font-semibold text-slate-800 dark:text-slate-200">Java Developer</span> and a <span className="font-semibold text-slate-800 dark:text-slate-200">MERN Stack enthusiast.</span> 
             I build scalable web applications with a focus on clean code and great user experiences.
           </p>
           
@@ -32,7 +32,7 @@ export default function Home() {
               View Projects
             </a>
             <a
-            href="/ABDOUL MOUHSIN.pdf" 
+            href="/CV_ABDOUL MOUHSIN_Software_Engineer.pdf" 
             download  
             className="px-8 py-3 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 font-medium rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-all">
               Download CV

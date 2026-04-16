@@ -7,7 +7,6 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Replace these strings with your actual IDs from EmailJS Dashboard
     emailjs.sendForm(
       'service_9874', 
       'template_pbtcwo6', 
